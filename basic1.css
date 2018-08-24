@@ -3,13 +3,23 @@
    padding: 0; 
 }
 
-body {
+.banner {
    
-    background-image: url("background1.jpg");
+    background-image: url("images/background1.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    border-bottom: 1px solid lightblue;
+    
+}
+
+
+.banner{
+  color: #125F9C;
+  border-bottom: 1px solid lightblue;
+
+
 }
 
 .container{
@@ -23,7 +33,7 @@ body {
     height: 70px;
     line-height: 60px;
     background: #fff;
-    border-bottom: 2px solid lightblue;
+    border-bottom: 1px solid lightblue;
 }
 
 .logo{
@@ -59,26 +69,44 @@ display: block ;
 }
 
 .menu li a{
-	color: #000000;
+	color: #125F9C;
 	text-decoration: none;
 	font-family: calibri;
 	text-transform: uppercase;
 	display: box;
 }
 
-.menu li:hover{
-	background: turquoise;
+.menu li {
+  color: #125F9C
 }
 
-.menu.li a: hover {
-	color: black;
+
+.menu li:hover{
+	background: #125F9C;
+  color: white;
+
 }
+
+.menu li a:hover{
+   color: white;
+}
+
 
 .column {
   float: left;
   width: 33.33%;
   padding: 5px;
+ 
+ }
 
+ .round{
+border-radius: 100%;
+
+ }
+
+ .column:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .row: {
@@ -98,6 +126,8 @@ display: block ;
     line-height: 60px;
     background: #fff;
     border-bottom: 2px solid lightblue;
+    border-top: 2px solid lightblue;
+    display: bottom;
 }
 
 .partners{
@@ -109,7 +139,12 @@ display: block ;
     list-style: none;
 }
 
+.par{ 
+display: block;
+text-align: center;
+float: left;
 
+}
 
 
 
