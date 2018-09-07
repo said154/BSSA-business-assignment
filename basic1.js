@@ -2,7 +2,7 @@ $( document ).ready(function() {
 })
  
 $(".logo_div").click(function() {
-    window.location.href= 'basic1.html';
+    window.location.href= 'index.html';
 });
 
 $(function() { 
